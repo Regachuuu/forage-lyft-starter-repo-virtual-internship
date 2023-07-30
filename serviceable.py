@@ -3,4 +3,5 @@ from abc import ABC, abstractmethod
 
 class Serviceable(ABC):
     @abstractmethod
-    def needs_serv
+    def needs_service(self):
+        pass
